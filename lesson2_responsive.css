@@ -1,0 +1,275 @@
+@media screen and (max-width: 1080px) {
+  html {
+    font-size: 15px;
+  }
+  
+  /* header */
+  .site-header {
+    padding: 15px 0;
+    position: fixed;
+    background-color: #fff;
+    z-index: 10;
+    width: 100%;
+  }
+    
+  .content-width {
+    max-width: none;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .header-nav-list {
+    display: none;
+    position: fixed;
+  }
+  
+  .header-nav-hamburger {
+   position: relative;
+   width: 30px;
+   height: 25px;
+   margin-left: auto;
+  }
+  
+  .header-nav-hamburger-line {
+   position: absolute;
+   top: 50%;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   background-color: black;
+   transform: translateY(-50%);
+  }
+  
+  .header-nav-hamburger::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   background-color: black;
+  }
+  
+  .header-nav-hamburger::after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   background-color: black;
+  }
+  
+  /*　コース・料金 */
+  .section-underlayer-hero {
+    padding-bottom: 90px;
+    background-image: url(https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-sp.png);
+    background-size: contain;
+    
+  }
+  
+  .underlayer-hero-heading {
+    padding: 0;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.3;
+  }
+  
+  .section-heading-title {
+    text-align: center;
+    font-size: 26px !important;
+    line-height: 1.2;
+  }
+  
+  .section-heading-title span{
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+  
+  .sp-br {
+    display: block;
+  }
+  
+  .detail-text {
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .pc-br {
+    display: inline;
+  }
+  
+  .detail-text-emphasis {
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .detail-point {
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  
+  .list-no {
+    width: 80px;
+    height: 80px;
+    margin-top: -70px;
+  }
+  
+  .list-no-image {
+    width: 32px;
+  }
+  
+  .detail-point-title {
+    font-size: 20px;
+  }
+  
+  .detail-box {
+    flex-direction: column;
+  }
+  
+  .detail-cassette {
+    width: 100%;
+    margin-top: 36px;
+  }
+  
+  .detail-cassette-text {
+    font-size: 15px;
+  }
+  
+  .detail-course-block-box {
+    display: block;
+  }
+  
+  .detail-course-block:first-child {
+    margin-right: initial !important;
+    margin-bottom: 60px;
+  }
+  
+  .detail-course-block {
+    min-width: initial !important;
+    width: initial !important;
+  }
+  
+  .plan-box {
+    padding: 20px;
+  }
+  
+  .plan-head {
+    font-size: 24px;
+    line-height: 27px;
+  }
+  
+  .section-content {
+    margin-top: 50px;
+  }
+  
+  .plan-head br {
+    display: block;
+  }
+  
+  .plan-cassettes {
+    margin-top: 20px;
+  }
+  
+  .plan-cassettes-head {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .list-content {
+    margin-top: 10px;
+    padding-left: 0;
+    line-height: 22px;
+    font-size: 15px;
+  }
+  
+  .desc-title {
+    margin: 20 auto;
+    padding: 0 22px;
+  }
+  
+  .desc-text {
+    padding-left: 0;
+    text-align: center;
+    font-size: 15px;
+    line-height: 22px;
+  }
+  
+  .desc-text + .desc-title {
+    margin-top: 30px;
+  }
+  
+  .plan-cassettes-tools {
+    display: block;
+  }
+  
+  .plan-cassettes-tool {
+    float: initial !important;
+    width: initial !important;
+  }
+  
+  .plan-cassettes-tool-box {
+    padding: 13px 8px 30px;
+  }
+  
+  .plan-cassettes-skipping {
+    display: block;
+    padding: 18px;
+  }
+  
+  .plan-cassettes-skipping-left {
+    float: initial;
+    width: 65%;
+    height: initial;
+    max-width: 130px;
+    margin: 0px auto 20px;
+  }
+  
+  .section-main-heading {
+    font-size: 26px !important;
+  }
+  
+  .pick-up-contents-list {
+    display: block;
+  }
+  
+  .pick-up-contents-cassette {
+    width: initial;
+    margin-bottom: 20px;
+  }
+  
+  .site-footer-main {
+    display: block;
+    text-align: center;
+  }
+  
+  .page-top-button {
+    right: 20px;
+    top: -105px;
+  }
+  
+  .footer-nav {
+    text-align: left;
+    margin-left: 20px;
+  }
+  
+  .footer-character {
+    margin-top: 50px;
+  }
+  
+  .footer-info {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #fff;
+  }
+  
+  .footer-info .footer-social {
+    justify-content: center;
+  }
+  
+  .site-footer-sub {
+    text-align: center;
+  }
+}
